@@ -2,9 +2,6 @@ package com.kevin.demo;
 
 import java.text.MessageFormat;
 
-/**
- * 领域的异常信息也是业务规则的一部分，有一些异常信息要提示给用户，有一些异常仅提示给开发人员用于错误定位。
- */
 public class BusinessException extends RuntimeException {
 
     private int errorCode;
